@@ -17,7 +17,7 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "@nbarinov/vkui-common": "^0.1.1",
+    "@nbarinov/vkui-common": "^0.1.2",
     "@sberdevices/plasma-icons": "^1.0.0-rc.0",
     "@sberdevices/plasma-tokens": "^1.0.0-rc.3",
     "@sberdevices/ui": "^1.0.0-rc.52",

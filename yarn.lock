@@ -946,10 +946,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@nbarinov/vkui-common@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@nbarinov/vkui-common/-/vkui-common-0.1.1.tgz#9775ba8081a85ae7dd0e7c96851d199652000c0c"
-  integrity sha512-9yMy56lDsPFQ/HmeQTxMZKhleV36vTuP89c6roHXKiNePOoSB+0a0Zm5546ZMS5rcuZEIhzrkXz+WkrinD69HQ==
+"@nbarinov/vkui-common@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@nbarinov/vkui-common/-/vkui-common-0.1.2.tgz#5951b8ecbc6940567f072f7a94cdcf6a3576a8b9"
+  integrity sha512-zVtF1RnukV1wdUDBAONkMaQi5p6S7LcWO9u+sLxAAjPwDIlm2ZYXFu6w9xKNP+DdpaihkvZu1XHEb7lZSKWHRQ==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-proposal-class-properties" "^7.12.13"
