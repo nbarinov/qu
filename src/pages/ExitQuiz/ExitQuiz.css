@@ -1,0 +1,27 @@
+.ExitQuiz {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 408px;
+  text-align: center;
+}
+
+.ExitQuiz__headline {
+  margin-bottom: 8px;
+}
+
+.ExitQuiz__paragraph {
+  margin-bottom: 36px;
+  color: var(--text_secondary);
+}
+
+.ExitQuiz__actions {
+  display: flex;
+  justify-content: center;
+}
+
+.ExitQuiz__actions > *:not(:last-child) {
+  margin-right: 8px;
+}

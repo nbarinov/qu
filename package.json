@@ -1,0 +1,33 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "author": "click",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development BABEL_ENV=development vkui-common start",
+    "build": "cross-env NODE_ENV=production BABEL_ENV=production vkui-common build",
+    "lint": "eslint ./src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@sberdevices/plasma-core": "^1.0.0-rc.0",
+    "classnames": "^2.2.6",
+    "lodash.throttle": "^4.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@nbarinov/vkui-common": "^0.1.1",
+    "@sberdevices/plasma-icons": "^1.0.0-rc.0",
+    "@sberdevices/plasma-tokens": "^1.0.0-rc.3",
+    "@sberdevices/ui": "^1.0.0-rc.52",
+    "@types/classnames": "^2.2.11",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/styled-components": "^5.1.7",
+    "@vkontakte/eslint-config": "^2.6.0",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.1.5",
+    "web-vitals": "^1.1.0"
+  }
+}
